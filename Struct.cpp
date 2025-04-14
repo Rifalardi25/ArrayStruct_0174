@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-struct Hero{
+struct Hero{ //Membuat Struktur Hero
     string Nama;
     string Role;
     string Tipe;
