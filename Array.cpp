@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-string matkul[] = {"Pemrograman", "Algoritma"};
+string matkul[] = {"Pemrograman", "Algoritma"}; // Membuat array dengan ukuran yang tidak diketahui
 
-float nilaiAkhir[2] = {1, 2.5};
+float nilaiAkhir[2] = {1, 2.5}; // Membuat array dengan ukuran yang diketahui
 
 char grade[5];
 
@@ -15,7 +15,7 @@ int main()
 
     for (int i = 0; i < 2; i++)
     {
-        cout << "Nilai akhir ke " << i + 1 << "=" << nilaiAkhir[i] << endl;
+        cout << "Nilai akhir ke" << i + 1 << "=" << nilaiAkhir[i] << endl;
     }
 
     cout << "Input Grade" << endl;
